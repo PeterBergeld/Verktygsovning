@@ -16,3 +16,20 @@ Syftet är att träna på grundläggande arbetsflöden inom modern mjukvaruutvec
 - `git remote` – hanterar kopplingen till ett externt repository.
 - `git push` – skickar mina commits till GitHub.
 - `git pull` – hämtar ändringar från GitHub.
+
+</> Markdown
+
+## Git-begrepp
+
+### Repository
+
+Ett repository är projektets gemensamma plats där kod, filer och
+verionhistorik kan lagras
+
+### Commit 
+
+En commit är en sparad version av förändringar i projektet.
+
+### Versionhistorik
+
+Versionhistoriken visar tidigare commits och gör det möjligt att se hur projektet har förändrats genom tid
