@@ -1,0 +1,25 @@
+pwd - visar vilken mapp jag befinner mig i.
+
+ls - visar filer och mapper i den aktuella mappen. 
+
+cd - används för att navigera mellan mappar.
+
+mkdir - skapar en ny mapp. 
+
+touch - skapar en ny fil. 
+
+cat -visar innehållet i en textfil
+
+push - Skickar förändring av kod till en repository
+
+pull - Tar förändringar till dina lokala mapp för att inspekteras 
+        samt användas i en utvecklingsmiljö
+
+commits - "Adresserar" vad inneheållet/förändringen inkkluderar
+        samt ett -m (message) om vad som har gjorts
+
+cd .. - För att navigera upp i din mappstruktur
+
+
+//Hade önskat att det fanns en för att gå ner en nivå
+istället för cd Introkurs. Så man slipper upprepa processen. 
