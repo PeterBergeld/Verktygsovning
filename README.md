@@ -40,11 +40,11 @@ Versionhistoriken visar tidigare commits och gör det möjligt att se hur projek
 
 ## Vad jag gjorde och varför
 
-cd Desktop är mitt första kommando för att placera mig i rätt space.
+Cd Desktop är mitt första kommando för att placera mig i rätt space.
 mkdir Introkurs blir mitt nästa för att skappa mappen och går in genom cd Introkurs.
 Jag skapar en map genom mkdir Vertygsovning, går in i den via cd Vertygsovning
 Via kommandot pwd kollar jag att jag är rätt & ls kontrollerar jag innehållet.
-Via terminalen skappar jag en fil med touch "mina-bash-kommandon.txt"
+Via terminalen skappar jag en fil med git touch "mina-bash-kommandon.txt"
 kontroll via ls
 Går in mappen och i adressfältet skriver jag code . och kommer
 på så sätt in i VS Studio Code och öppnar mappen! 
@@ -56,12 +56,17 @@ Går in i GitHub och väljer namn Vertygsovning samt skapar repsoitory
 git init för att skapa en repository i projekt mappen. 
 Lägger till GitHub genom -git remote add origin https://github.com/PeterBergeld/Verktygsovning.git
 Konroll genom git remote -v
-git add mina-bash-kommandon.txt lägger till vad som ska packas ner till stagingområdet.
+
+git add mina-bash-kommandon.txt lägger till ändringen ner till stagingområdet inför nästa commit. 
+Vid git status kommando får du meddelande "Changes not staged for commit" som säger mig att de inte blivit stagade än (git add <file>)
 git commit -m "Lägger till dokumentation av bash-kommmandon"
-vilket sparar commit och packar ner. 
-Jag adderar git add README.md för att packas ner
-sparar genom git commit -m "Lägger till README med beskriving av övning"
-I VS CODE skriver jag in olika Git-kommandon i README.md för att sedan packa ner de genom git add README.md--->git commit -m "Lägger till förklaring av Git-kommandon"
+vilket sparar commit. 
+
+
+Jag adderar git add README.md för att sparas.
+
+Sparar genom git commit -m "Lägger till README med beskriving av övning"
+I VS CODE skriver jag in olika Git-kommandon i README.md för att sedan spara ner de genom git add README.md--->git commit -m "Lägger till förklaring av Git-kommandon"
 
 Nästa steg blir att förklara olika Git-begrepp i README.md filen. 
 Går vidare med git add README.md
@@ -80,11 +85,17 @@ git add DOCS/samarbete.md
 git commit -m "Lägger till dokumentation om repository samarbete"
 
 git branch -M main
+c
 git push -u origin main
 
 git push
 
+Avslutningsviss går jag fram och tillaka med add . och push för att putsa, men framföärallt för att få det till ett återkommande mönster och hjärntvätts bettende. Min "logg" är väldigt svårläst som den ser ut i nuet. 
 
-Ska tilläggas att i slutet såg jag att mina bash-kommandon inte hade pushats ut till GitHub och fick korrigera det efteråt med git add . och git push. Börja inse att terminalen är ett starkt vertyg och det "smörjer" verkligen arbetsflödet. 
+Ska tilläggas att i slutet såg jag att mina bash-kommandon inte hade pushats ut till GitHub och fick korrigera det efteråt med git add . och git push. GitHub underlättar extremt mycket och ger en möjligheten att jobba överallt i världen förutsatt att du har en uppkoppling. 
 
+ Börja inse att terminalen är ett starkt vertyg och det "smörjer" verkligen arbetsflödet. Måste bara bli bättre på det 
 
+> *"I have not failed. I've just found*
+> *10,000 ways that won't work"*
+> *-Thomas Edison*
