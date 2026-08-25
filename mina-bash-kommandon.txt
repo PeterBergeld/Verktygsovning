@@ -13,7 +13,7 @@ cat -visar innehållet i en textfil
 push - Skickar förändring av kod till en repository
 
 pull - Tar förändringar till dina lokala mapp för att inspekteras 
-        samt användas i en utvecklingsmiljö
+        samt använda i en utvecklingsmiljö
 
 commits - "Adresserar" vad inneheållet/förändringen inkkluderar
         samt ett -m (message) om vad som har gjorts
