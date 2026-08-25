@@ -10,16 +10,21 @@ touch - skapar en ny fil.
 
 cat -visar innehållet i en textfil
 
-push - Skickar förändring av kod till en repository
-
+push - Skickar förändring från den lokala mappen till en 
+        repository från en lokal mapp
+       
 pull - Tar förändringar till dina lokala mapp för att inspekteras 
         samt använda i en utvecklingsmiljö
 
-commits - "Adresserar" vad inneheållet/förändringen inkkluderar
-        samt ett -m (message) om vad som har gjorts
+git commit - "Adresserar" vad inneheållet/förändringen inkkluderar.
+        Läggs till ett -m (message) om vad som har gjorts
 
 cd .. - För att navigera upp i din mappstruktur
 
+git add . -Adderar till alla ändrade filer i en commit 
+
+git log - visar versionhistorik
+
 
 //Hade önskat att det fanns en för att gå ner en nivå
-istället för cd Introkurs. Så man slipper upprepa processen. 
+istället för cd Introkurs i detta fall. Så man slipper upprepa processen. 
