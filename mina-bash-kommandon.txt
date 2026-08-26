@@ -25,6 +25,11 @@ git add . -Adderar till alla ändrade filer i en commit
 
 git log - visar versionhistorik
 
+git remote add origin - Designerar till GitHub 
+
+![alt text]-Lägger till en png genom copy+
+paste
+
 
 //Hade önskat att det fanns en för att gå ner en nivå
 istället för cd Introkurs i detta fall. Så man slipper upprepa processen. 
