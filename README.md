@@ -25,10 +25,11 @@ Markdown notis:
     koden att göra, utan är en separat text. 
 ** = Bold
 __ = Bold
-< u >...</ u> = Understrucken
+< u >...</ u> = Understrucken OBS! ser det inte på github får använda mmig av --- under
 
 
 ### <u>Repository</u>
+---
 
 Ett repository är projektets gemensamma plats där kod, filer och
 verionhistorik kan lagras.
