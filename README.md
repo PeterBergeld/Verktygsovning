@@ -25,7 +25,7 @@ Markdown notis:
     koden att göra, utan är en separat text. 
 ** = Bold
 __ = Bold
-< u >...</ u> = Understrucken OBS! ser det inte på github får använda mmig av --- under
+< u >...</ u> = Understrucken OBS! ser det inte på GitHub, får använda mig av --- under.  //Det skapar bara en linje under
 
 
 ### <u>Repository</u>
@@ -53,17 +53,17 @@ Via kommandot pwd kollar jag att jag är rätt & ls kontrollerar jag innehållet
 Via terminalen skappar jag en fil med git touch "mina-bash-kommandon.txt"
 kontroll via ls.
 Går in mappen och i adressfältet skriver jag code . och kommer
-på så sätt in i VS Studio Code och öppnar mappen! 
+på så sätt in i VS Studio Code och är i  mappen! 
 Jag adderar till .txt filen mina-bash-kommandon och sparar!
 
 Skapar en README.md fil i VS CODE och skriver Vertygsövning och syfte med # samt ##. SPARAR!
 
-Går in i GitHub och väljer namn Vertygsovning samt skapar repsoitory
+Går in i GitHub och väljer namn Vertygsovning samt skapar repository
 git init för att skapa en repository i projekt mappen. 
 Designerar till GitHub genom -git remote add origin https://github.com/PeterBergeld/Verktygsovning.git och shift+insert.
 Kontroll genom git remote -v
 
-git add mina-bash-kommandon.txt lägger till ändringen ner till stagingområdet inför nästa commit. 
+Git add mina-bash-kommandon.txt lägger till ändringen ner till stagingområdet inför nästa commit. 
 Vid git status kommando får du meddelande "Changes not staged for commit" som säger mig att de inte blivit stagade än (git add < file >)
 git commit -m "Lägger till dokumentation av bash-kommmandon"
 vilket sparar commit. 
@@ -86,7 +86,7 @@ touch samarbete.md
 
 In till VS CODE och samarbete.md och förklar vad ett Repository-samarbete innefattar
 
-In i bash cd .. (Jag befinner mig nu i DOCS mappen)
+In i git cd .. (Jag befinner mig nu i DOCS mappen)
 git add DOCS/samarbete.md 
 git commit -m "Lägger till dokumentation om repository samarbete"
 
@@ -96,6 +96,8 @@ git push -u origin main
 
 git push
 
+Aslutar med git copy < GitHub adressen > på min laptop för att få ner projektet på min laptop
+
 Klar med övningen!
 
  ## **Reflektion**
@@ -104,12 +106,12 @@ Klar med övningen!
 
 Ska tilläggas att i slutet såg jag att mina bash-kommandon inte hade pushats ut till GitHub och fick korrigera det efteråt med git add . och git push. GitHub underlättar extremt mycket och ger en möjligheten att jobba överallt i världen förutsatt att du har en uppkoppling. 
 Som ett fint avslut adderar jag ett quote av Edision, tog lite tid, men var bara stimulerande 
-* och _ = vid början och slutet av text skapar kursiv text. Kontroll med ctrl+k--->släpp + v 
+* och _ = vid början och slutet av text skapar kursiv text. Kontroll med ctrl+k--->släpp + v i VS Code
 
- Börja inse att terminalen är ett starkt vertyg och det "smörjer" verkligen arbetsflödet. Måste bara bli bättre på det 
+ Börja inse att terminalen är ett starkt vertyg och det "smörjer" verkligen arbetsflödet. Måste bara bli bättre på det.
 
 ![alt text](image-1.png)
 ![alt text](image-2.png)
-> _"I have not failed. I've just found_
+> *"I have not failed. I've just found*
 > *10,000 ways that won't work"*
 > *-Thomas Edison*
