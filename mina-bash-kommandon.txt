@@ -31,8 +31,7 @@ git remote add origin - Designerar till GitHub
 
 git copy - https://hithub/PeterBergeld/Vertygsovning.git
 
-![alt text]-Lägger till en png genom copy+
-paste. 
+![alt text](Din img.png fil) - Lägger till bild
 
 
 //Hade önskat att det fanns en för att gå ner en nivå
